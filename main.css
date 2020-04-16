@@ -1,0 +1,154 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+body header .header {
+  background-image: url("./img/header-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+body header .header h1, body header .header h2, body header .header h3 {
+  color: #f7f7f7;
+  text-align: center;
+}
+
+body header .header h1 {
+  padding-top: 5rem;
+  font-size: 2rem;
+}
+
+body header .header h2 {
+  font-size: 1.2rem;
+}
+
+body header nav {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ccc;
+}
+
+body main article {
+  margin-bottom: 2.5rem;
+}
+
+body main article h2 {
+  color: #292b2c;
+  margin: 2.5rem 1rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+body main article p {
+  text-indent: 1.9rem;
+  line-height: 1.9rem;
+  margin-bottom: .5rem;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+body main article figure {
+  margin-bottom: 0;
+}
+
+body main article figure img {
+  margin: .5rem 1rem;
+}
+
+body main article figure figcaption {
+  font-size: .85rem;
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+body main article .blockquote {
+  font-size: 1.15rem;
+  font-style: italic;
+  border: 1px solid #292b2c;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+}
+
+body main article .blockquote footer.blockquote-footer {
+  height: auto;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+body footer {
+  background-image: url(none);
+  background-color: #ccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  color: #292b2c;
+}
+
+body footer .container {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+body footer .container p:nth-child(1) {
+  margin-bottom: 1rem;
+}
+
+body footer .container p {
+  margin-bottom: 0;
+}
+
+body footer .container p > #envelope {
+  font-size: 3.75rem;
+  vertical-align: sub;
+}
+
+body footer .container p > span {
+  display: inline-block;
+}
+
+ol.breadcrumb {
+  margin: 0;
+}
+
+.flag {
+  height: 20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  header .header h3 {
+    font-size: 1.2rem;
+  }
+  figure {
+    margin-bottom: 0;
+  }
+  figure img {
+    margin: 0 1rem;
+    max-width: 90%;
+  }
+  figure figcaption {
+    font-size: .9rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .breadcrumb-item {
+    padding-left: 5rem;
+  }
+  .navbar {
+    padding-left: 5rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*# sourceMappingURL=main.css.map */

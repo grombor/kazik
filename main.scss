@@ -1,0 +1,112 @@
+@import "reset";
+@import "config";
+
+body {
+    background-color: $background-color;
+
+
+    header {
+        .header {
+            background-image: url($header-background-image);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: $header-height;
+
+            h1, h2, h3 {
+                color: $primary-color;
+                text-align: center;
+            }
+
+            h1 {
+                padding-top: 5rem;
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+        }
+        nav {
+            background-color: $primary-color;
+            border-bottom: 1px solid $tetriary-color;
+        }
+    }
+
+    main {
+        article {
+            margin-bottom: 2.5rem;
+            h2 {
+                color: $secondary-color;
+                margin: 2.5rem 1rem;
+                font-weight: bolder;
+                text-align: center;
+            }
+            p {
+                text-indent: $l-height;
+                line-height: $l-height;
+                margin-bottom: .5rem;
+                font-size: 1.2rem;
+                text-align: justify;
+            }
+            figure {
+                margin-bottom: 0;
+                img {
+                    margin: .5rem 1rem;
+                }
+                figcaption {
+                    font-size: .85rem;
+                    text-align: center;
+                    margin-bottom: .5rem;
+                }
+            }
+            .blockquote {
+                font-size: 1.15rem;
+                font-style: italic;
+                border: 1px solid $secondary-color;
+                padding: 1rem 2rem;
+                border-radius: 25px;
+                footer.blockquote-footer {
+                    height: auto;
+                    background-color: rgba($color: #000000, $alpha: 0);
+                }
+            }
+
+        }
+    }
+
+    footer {
+        background-image: url($footer-background-image);
+        background-color: $tetriary-color;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: $footer-height;
+        color: $secondary-color;
+        .container {
+            padding-top: 2rem;
+            text-align: center;
+            p:nth-child(1) {
+                margin-bottom: 1rem;
+            }
+            p {
+                margin-bottom: 0;
+            }
+            p > #envelope {
+                font-size: 3.75rem;
+                vertical-align: sub;
+            }
+            p > span {
+                display: inline-block;
+            }
+        }
+    }
+};
+
+ol.breadcrumb {
+    margin: 0;
+}
+
+.flag {
+    height: 20px;
+}
+
+@import "media";
