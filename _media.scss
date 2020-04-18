@@ -1,5 +1,21 @@
  /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
+    body {
+        main {
+            grid-template-areas: 
+            'cta1'
+            'article'
+            'cta2'
+            'aside';
+
+            aside {
+                width: 0px;
+                height: 0px;
+                overflow: hidden;
+            }
+        }
+    }
+
     header {
         .header {
             h3 {

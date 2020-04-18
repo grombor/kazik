@@ -33,6 +33,59 @@ body {
     }
 
     main {
+        display: grid;
+        grid-gap: 0;
+        grid-template-areas: 
+        'cta1 cta1'
+        'aside article'
+        'aside cta2';
+        .cta1 {
+            grid-area: cta1;
+            height: 300px;
+            background-image: url($cta-image);
+            color: $primary-color;
+            text-align: center;
+            h2 {
+                font-size: 2rem;
+                margin: 4rem 1rem 1.5rem;
+            }
+            h5 {
+                margin: 2rem;
+                margin-top: 0;
+            }
+        }
+        .article {
+            grid-area: article;
+            p {
+                margin: 1rem 2rem;
+            }
+        }
+        .cta2 {
+            grid-area: cta2;
+        }
+        aside {
+            grid-area: aside;
+            width: 250px;
+            background-color: $background-color;
+            color: $secondary-color;
+            border-right: 1px solid $secondary-color;
+            h5 {
+                padding: 1rem 2rem;
+                text-align: center;
+                margin-bottom: 0;
+                color: $secondary-color;
+                font-weight: 600;
+                font-size: 1rem;
+            }
+            ul li a {
+                color: $secondary-color;
+                font-size: .95rem;
+                &:hover {
+                    color: $secondary-color;
+                    text-decoration: none;
+                }
+            }
+        }
         article {
             margin-bottom: 2.5rem;
             h2 {
