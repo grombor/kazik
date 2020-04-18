@@ -36,18 +36,7 @@ body header nav {
   border-bottom: 1px solid #ccc;
 }
 
-body main {
-  display: -ms-grid;
-  display: grid;
-  grid-gap: 0;
-      grid-template-areas: 'cta1 cta1' 'aside article' 'aside cta2';
-}
-
 body main .cta1 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-area: cta1;
   height: 300px;
   background-image: url("./img/cta-image.jpg");
   color: #f7f7f7;
@@ -56,7 +45,7 @@ body main .cta1 {
 
 body main .cta1 h2 {
   font-size: 2rem;
-  margin: 4rem 1rem 1.5rem;
+  padding-top: 4rem;
 }
 
 body main .cta1 h5 {
@@ -65,8 +54,6 @@ body main .cta1 h5 {
 }
 
 body main .article {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
   grid-area: article;
 }
 
@@ -75,39 +62,7 @@ body main .article p {
 }
 
 body main .cta2 {
-  -ms-grid-row: 3;
-  -ms-grid-column: 2;
   grid-area: cta2;
-}
-
-body main aside {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 1;
-  grid-area: aside;
-  width: 250px;
-  background-color: #f7f7f7;
-  color: #292b2c;
-  border-right: 1px solid #292b2c;
-}
-
-body main aside h5 {
-  padding: 1rem 2rem;
-  text-align: center;
-  margin-bottom: 0;
-  color: #292b2c;
-  font-weight: 600;
-  font-size: 1rem;
-}
-
-body main aside ul li a {
-  color: #292b2c;
-  font-size: .95rem;
-}
-
-body main aside ul li a:hover {
-  color: #292b2c;
-  text-decoration: none;
 }
 
 body main article {
@@ -197,14 +152,6 @@ ol.breadcrumb {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  body main {
-        grid-template-areas: 'cta1' 'article' 'cta2' 'aside';
-  }
-  body main aside {
-    width: 0px;
-    height: 0px;
-    overflow: hidden;
-  }
   header .header h3 {
     font-size: 1.2rem;
   }
