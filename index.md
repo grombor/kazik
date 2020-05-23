@@ -22,7 +22,7 @@
     <header>
         <div class="header">
             <h1>Strona Kazika B.</h1>
-            <h3>Lorem ipsum dolor sit amet.</h3>
+            
         </div>
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#">Navbar</a>
