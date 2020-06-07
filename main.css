@@ -84,6 +84,10 @@ body main article p {
   text-align: justify;
 }
 
+body main article img {
+  margin: .5rem 1rem;
+}
+
 body main article figure {
   margin-bottom: 0;
 }
