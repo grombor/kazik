@@ -17,7 +17,7 @@ body header .header {
   height: 250px;
 }
 
-body header .header h1, body header .header h2, body header .header h3 {
+body header .header h1, body header .header h2, body header .header h3, body header .header h4 {
   color: #f7f7f7;
   text-align: center;
 }
@@ -84,6 +84,11 @@ body main article p {
   text-align: justify;
 }
 
+body main article p pre {
+  display: inline-block;
+  text-align: center;
+}
+
 body main article img {
   margin: .5rem 1rem;
 }
@@ -146,12 +151,16 @@ body footer .container p > span {
   display: inline-block;
 }
 
-ol.breadcrumb {
+body ol.breadcrumb {
   margin: 0;
 }
 
-.flag {
+body .flag {
   height: 20px;
+}
+
+body .text-center {
+  text-indent: 0;
 }
 
 /* Extra small devices (phones, 600px and down) */
