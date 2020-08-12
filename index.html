@@ -219,7 +219,7 @@
                     (format <a href="https://drive.google.com/open?id=1fvuE6Lt-d4bMIfpof8c9frKB7TMf2fC-">doc</a>)
                     (2019.09.21)</li>
 
-                    <li class="list-group-item"><a href="/views/artykuly/inne/Kalendarium2020.htm">Kalendarze dni świątecznych na lata 2008-2020 </a>
+                    <li class="list-group-item"><a href="./views/artykuly/inne/Kalendarium2020.htm">Kalendarze dni świątecznych na lata 2008-2020 </a>
                     (2019.09.14)</li>
 
                     <li class="list-group-item"><a href="https://www.saiprakashana.online/web/pl/booklets-pl/2019-03-malaysia-pl">Boska wizyta w
@@ -717,16 +717,16 @@
                     <li class="list-group-item"><a href="./views/artykuly/nauki_sai_baby/Nauki/d101122.htm">Pełny Dyskurs z dnia 22 11 2010 r.</a>
                         (2010.12.07)</li>
                     <li class="list-group-item"><a
-                            href="./views/artykuly/o_sai_babie/91-how-swami-gave-poles-his-ramakatha-rasavahini-pl.htm">Jak
+                            href="./views/artykuly/o_sai_babie/91-how-swami-gave-poles-his-ramakatha-rasavahini.htm">Jak
                             Swami dał Polakom Ramakatę Rasavahini</a> (polska wersja)
                         (2010.12.20)</li>
                     <li class="list-group-item"><a
-                            href="./views/artykuly/o_sai_babie/91-how-swami-gave-poles-his-ramakatha-rasavahini.htm">Jak Swami dał
+                            href="./views/artykuly/o_sai_babie/91-how-swami-gave-poles-his-ramakatha-rasavahini-pl.htm">Jak Swami dał
                             Polakom Ramakatę Rasavahini</a> (po ang.) (2010.11.22)</li>
                     <li class="list-group-item">Ostateczna wersja (pdf) książki <a
                             href="http://www.astro.umk.pl/~kb/Books/StarPeople.pdf">Gwiezdni ludzie ponownie</a>
                         <!--br--> znacznie poprawiona w stosunku do wcześniej stopniowo udostępnianej
-                        <a href="Val/starship.htm">wersji html</a>
+                        <a href="./views/artykuly/valerie_barrow/starship.htm">wersji html</a>
                         (2010.08.30)</li>
                     <li class="list-group-item"><a href="./views/artykuly/inne/ForgedOrigins.htm">Artykuł o sfałszowanych Ewangeliach</a>
                         (<a href="Inne/ForgedOrigins.pdf">plik pdf</a>)
@@ -735,7 +735,7 @@
                             Formy</a> (2010.05.14)</li>
                     <li class="list-group-item"><a href="./views/artykuly/inne/Polish air crash.htm">Duchowi nauczyciele o polskiej
                             tragedii</a> (2010.04.20)</li>
-                    <li class="list-group-item"><a href="./views/artykuly/inne/BogIstnieje.htm">Cud dla Indry Devi</a> (2010.01.04)
+                    <li class="list-group-item"><a href="./views/artykuly/inne/BogIstnieje.htm.htm">Cud dla Indry Devi</a> (2010.01.04)
                     </li>
                     <!-- check this link below  -->
                     <li class="list-group-item"><a href="./views/artykuly/naukowe_i_popularne/UPA.html">Okrucieństwa
