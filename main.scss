@@ -47,6 +47,12 @@ body {
                 margin-top: 0;
             }
         }
+        .cta3 {
+            background-image: url(./img/cta3.jpg);
+            background-position: center center;
+            background-size: cover;
+            height: 100vh;
+        }
         .article {
             grid-area: article;
             p {
@@ -142,6 +148,11 @@ body {
     .text-center {
         text-indent: 0;
     }    
+
+    #cta3a, #cta3b, #cta3c {
+        height: 300px;
+        width: 300px;
+    }
 };
 
 

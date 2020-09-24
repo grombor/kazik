@@ -53,6 +53,13 @@ body main .cta1 h5 {
   margin-top: 0;
 }
 
+body main .cta3 {
+  background-image: url(./img/cta3.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
 body main .article {
   grid-area: article;
 }
@@ -161,6 +168,11 @@ body .flag {
 
 body .text-center {
   text-indent: 0;
+}
+
+body #cta3a, body #cta3b, body #cta3c {
+  height: 300px;
+  width: 300px;
 }
 
 /* Extra small devices (phones, 600px and down) */
