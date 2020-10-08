@@ -2,60 +2,148 @@
 <html lang="pl">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-    <!-- FontAwesome -->
-    <script src="https://kit.fontawesome.com/c1246e0d6d.js" crossorigin="anonymous"></script>
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/c1246e0d6d.js" crossorigin="anonymous"></script>
 
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="main.css">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="main.css">
 
-    <title>Kazik Borkowski (PL)</title>
+  <title>Kazik Borkowski (PL)</title>
+
 </head>
 
 <body>
-    <header>
-    
-    </header>
-    <main>
-        <div class="cta3">
-            <H2 class="text-center py-5">Witam i zapraszam do lektury - K. Borkowski</H2>
-            <div class="container">
-                <div class="container">
-                    <div class="row">
-                      <div class="col align-self-center">
-                        <p>Odnosnik do nowej wersji strony, gdzie znajdziecie...</p>
-                        <img src="./img/Image152.jpg" id="cta3a" class="card-img-top" alt="...">
-                      </div>
-                      <div class="col align-self-center">
-                        <p>Odnosnik do starszej wersji strony</p>
-                        <img src="./img/Image152.jpg" id="cta3a" class="card-img-top" alt="...">
-                      </div>
-                      <div class="col align-self-center">
-                        <p>Odnosnik do strony na UMK</p>
-                        <img src="./img/Image152.jpg" id="cta3a" class="card-img-top" alt="...">
-                      </div>
-                    </div>
+  <header>
+
+  </header>
+  <main>
+    <div class="cta3">
+      <H2 class="text-center py-5">Witam i zapraszam do lektury - K. Borkowski</H2>
+      <div class="container">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center">
+            <div class="col align-self-center my-2">
+              <a href="https://grombor.github.io/" target="_blank" rel="noopener noreferrer">
+                <div class="bg-img-black1">
+                  <div class="bg-black">
                   </div>
+                  <p>Odnosnik do nowszej wersji <br> strony,
+                    bez reklam.</p>
+                </div>
+              </a>
             </div>
+            <div class="col align-self-center my-2">
+              <a href="http://sai.5v.pl/" target="_blank" rel="noopener noreferrer">
+                <div class="bg-img-black2">
+                  <div class="bg-black">
+                  </div>
+                  <p>Nauki Sai Baby, wywiady <br> i wykłady z filozofii</p>
+                </div>
+              </a>
+            </div>
+            <div class="col align-self-center my-2">
+              <a href="http://www.astro.umk.pl/~kb/kb.htm" target="_blank" rel="noopener noreferrer">
+                <div class="bg-img-black3">
+                  <div class="bg-black">
+                  </div>
+                  <p>Artykuły naukowe, programy <br>
+                    i astrologia na serwerze UMK</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
 
 
-    </main>
-    <!-- <footer>
+  </main>
+  <!-- <footer>
         <div class="container">
         </div>
     </footer> -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
+
+<style>
+  .col .bg-img-black1 {
+    height: 300px;
+    width: 300px;
+    background-image: url(./img/mobile-application.svg);
+    background-size: 300px 300px;
+  }
+
+  .col .bg-img-black2 {
+    height: 300px;
+    width: 300px;
+    background-image: url(./img/mobile-application.svg);
+    background-size: 300px 300px;
+  }
+
+  .col .bg-img-black3 {
+    height: 300px;
+    width: 300px;
+    background-image: url(./img/astrology.svg);
+    background-size: 300px 300px;
+  }
+
+  .col .bg-img-black1 .bg-black {
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    transition: .6s ease-in-out;
+  }
+
+  .col .bg-img-black2 .bg-black {
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    transition: .6s ease-in-out;
+  }
+
+  .col .bg-img-black3 .bg-black {
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    transition: .6s ease-in-out;
+  }
+
+   p {
+    margin: auto auto;
+    color: salmon;
+    font-weight: bold;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    min-width: 300px;
+    max-width: 300px;
+    bottom: 0px;
+    padding: 25px 25px;
+    margin: auto auto;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    transition: .6s ease-in-out;
+  }
+
+  p:hover {
+    color: whitesmoke;
+  }
+</style>
 
 </html>
