@@ -57,7 +57,7 @@ body main .cta3 {
   background-image: url(./img/cta3.jpg);
   background-position: center center;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
 }
 
 body main .article {
